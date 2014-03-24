@@ -1,0 +1,1 @@
+Spike to investigate chatting mechanics with NPC characters
