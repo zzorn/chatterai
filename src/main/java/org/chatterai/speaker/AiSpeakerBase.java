@@ -21,9 +21,9 @@ public abstract class AiSpeakerBase implements Speaker {
     private String name;
 
     private RandomVar speakingSpeed = new RangeRandomVar(1, 0.2);
-    private RandomVar lullDuration = new RangeRandomVar(6, 2);
-    private RandomVar minimalPause = new RangeRandomVar(2, 0.7);
-    private RandomVar initialPause = new RangeRandomVar(1, 0.5);
+    private RandomVar lullDuration = new RangeRandomVar(10, 2);
+    private RandomVar minimalPause = new RangeRandomVar(1, 0.5);
+    private RandomVar initialPause = new RangeRandomVar(0.7, 0.3);
 
     protected AiSpeakerBase(String name) {
         this.name = name;

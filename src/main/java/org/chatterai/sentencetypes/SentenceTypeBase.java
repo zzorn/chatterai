@@ -7,7 +7,7 @@ import org.chatterai.speaker.Speaker;
  */
 public abstract class SentenceTypeBase implements SentenceType {
 
-    private static final int TYPICAL_DURATION = 2;
+    private static final double TYPICAL_DURATION = 1.5;
 
     private double typicalDuration;
     private boolean emote;

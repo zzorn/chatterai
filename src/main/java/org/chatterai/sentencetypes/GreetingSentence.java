@@ -12,7 +12,7 @@ public class GreetingSentence extends SentenceTypeBase {
     public static GreetingSentence SENTENCE = new GreetingSentence();
 
     public GreetingSentence() {
-        super(1);
+        super(0.5);
     }
 
     @Override protected String generateSentence(Speaker source, Speaker recipient) {
